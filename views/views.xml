@@ -1,0 +1,18 @@
+<odoo>
+   <data>
+
+      <record id="custom_calendar_action" model="ir.actions.client">
+         <field name="name">Custom Calendar</field>
+         <field name="tag">custom-calendar-widget</field>
+         <field name="target">current</field>
+      </record>
+
+      <menuitem
+         id="custom_calendar_menu"
+         name="Custom Calendar"
+         action="rent_line_calendar_action"
+         parent="point_of_sale.menu_point_rep"
+      />
+
+    </data>
+</odoo>

@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <template id="widget_calednar_assets" name="widget_calendar_assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+            
+                <link rel="stylesheet" href="/widget_custom_calendar/static/src/css/widget_custom_calendar.css" type="text/css"/>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/js/widget_custom_calendar.js"/>
+
+                <link rel="stylesheet" href="/widget_custom_calendar/static/src/lib/fullcalendar/packages/core/main.css" type="text/css"/>
+                <link rel="stylesheet" href="/widget_custom_calendar/static/src/lib/fullcalendar/packages/daygrid/main.css" type="text/css"/>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/lib/moment.js"></script>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/lib/moment-timezone.js"></script>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/lib/fullcalendar/packages/core/main.js"></script>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/lib/fullcalendar/packages/core/locales-all.js"></script>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/lib/fullcalendar/packages/interaction/main.js"></script>
+                <script type="text/javascript" src="/widget_custom_calendar/static/src/lib/fullcalendar/packages/daygrid/main.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,21 @@
+.fc-content{
+    cursor: pointer;
+}
+
+.fc-event, .fc-event-dot {
+    background-color: #3788d86e !important;
+}
+
+.fc-event {
+    position: relative;
+    display: block;
+    font-size: .85em;
+    line-height: 1.4;
+    border-radius: 3px;
+    background-color: #3788d86e !important;
+    border: none !important
+}
+
+.content-calendar{
+    
+}
